@@ -1,0 +1,39 @@
+**create laravel project**
+laravel new chartSystem
+
+**run server **
+php artisan serve
+
+**download chatify package**
+https://chatify.munafio.com/installation
+
+**Installation chatify**
+
+2.Require Chatify in your application
+composer require munafio/chatify
+
+3.Install Chatify
+php artisan chatify:install
+
+4.Migration to database
+php artisan migrate
+
+**download Jetstream package**
+https://jetstream.laravel.com/2.x/installation.html
+
+1.Installing Jetstream
+composer require laravel/jetstream
+
+2.Install Jetstream With Livewire
+php artisan jetstream:install livewire
+
+3.
+npm install
+npm run build
+php artisan migrate
+
+
+**create pusher app**
+https://dashboard.pusher.com/apps/1487621/getting_started
+
+
